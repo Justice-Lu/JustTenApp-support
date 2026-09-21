@@ -11,26 +11,32 @@
   <main>
     <div class="wordmark">Just Ten</div>
     <h1>Privacy Policy</h1>
-    <p class="meta">Last updated: August 29, 2026</p>
+    <p class="meta">Last updated: September 21, 2026</p>
     <p class="lede">Just Ten respects your privacy. This policy explains what information the app collects and how it is used.</p>
 
     <h2>What we collect</h2>
-    <p><strong>Nothing.</strong></p>
-    <p>Just Ten is a fully offline puzzle game. It collects no personal data, analytics, location information, contacts, or advertising identifiers.</p>
+    <p>Gameplay works offline. When Wi-Fi is available, Just Ten uses Firebase Anonymous Authentication and Cloud Firestore to provide global leaderboards. No email, password, or signup is required. Firebase assigns an anonymous player identifier.</p>
+    <p>The app sends your editable player name and personal-best scores for Classic and Challenge, together with their game-version cohort. Firestore records when a best was saved. Player names and scores are visible in public leaderboards. Existing saved high scores may be uploaded after an app update without playing a new run.</p>
+    <p>Just Ten does not include advertising or analytics and does not collect contacts, location information, or advertising identifiers. Firebase processes network metadata, including IP addresses, to operate and secure its services.</p>
 
     <h2>Data stored on your device</h2>
     <p>The app stores local game progress on your device only:</p>
     <ul>
-      <li>Your high score and best wave.</li>
-      <li>Your lifetime career stats, including games finished, waves completed, tiles cleared, largest selection, and fastest wave.</li>
-      <li>Your sound, haptics, Newbie mode, and theme settings.</li>
+      <li>Your high scores, best wave, most boards cleared, best combo, largest clears, most tiles cleared in a run, and fastest wave time.</li>
+      <li>Your lifetime career stats, including games finished, waves completed, and tiles cleared.</li>
+      <li>Your sound, haptics, Show sums, combo effects, and theme settings.</li>
       <li>The achievements you have earned.</li>
-      <li>A timestamp used to throttle Apple's in-app rating prompt.</li>
+      <li>The last rating-reminder milestone shown and whether reminders were disabled.</li>
+      <li>Your player name, cached leaderboard results, and pending submissions.</li>
     </ul>
-    <p>This data never leaves your device. It is not transmitted to us or to any third party.</p>
+    <p>Career statistics, achievements, settings, and recorded move sequences stay on your device. Only the leaderboard information described above is uploaded.</p>
 
     <h2>Third-party services</h2>
-    <p>Just Ten includes no third-party analytics, advertising, SDKs, or crash reporting. It makes no network requests.</p>
+    <p>Firebase, provided by Google, stores the anonymous profile and leaderboard data. See <a href="https://firebase.google.com/support/privacy">Firebase's privacy information</a>. Leaderboard synchronization uses Wi-Fi and is best effort when the app is backgrounded.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>Public best scores and names remain stored until removed by the developer. Resetting local records or uninstalling the app does not delete public entries.</p>
+    <p>To request removal, contact <a href="mailto:just.develope.acc@gmail.com?subject=Just%20Ten%20Data%20Removal">just.develope.acc@gmail.com</a> and include your displayed player name and score so the record can be identified. Duplicate names may require further information.</p>
 
     <h2>Contact</h2>
     <p>Questions about this policy can be sent to <a href="mailto:just.develope.acc@gmail.com?subject=Just%20Ten%20Privacy">just.develope.acc@gmail.com</a>.</p>
